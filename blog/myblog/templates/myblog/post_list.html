@@ -12,7 +12,7 @@
                     <h3 class="card-title">{{ post.title|title }}</h3>
                     <p class="card-text">
                         {{ post.content|safe|linebreaksbr|truncatechars:100 }}
-                        {% if post.content|length > 100 %}...{% endif %}
+                        {% if post.content|length > 100 %}{% endif %}
                     </p>
                     <small>
                         {{ post.author.username|title }} - {{ post.created_on|date:"M d, Y" }}

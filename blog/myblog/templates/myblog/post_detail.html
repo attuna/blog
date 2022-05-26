@@ -17,6 +17,29 @@
             <p align="right">{{ post.author.username|title }} - {{ post.created_on|date:"M d, Y" }}</p>
         </small>
     </div>
+    <div class = "card-body pt-0">
+        <hr>
+        <div class ="row">
+            <div class ="col"><h5>Comments:</h5></div>
+             <div class ="col text-end">
+                 <a class = "btn btn-outline-info" aria-pressed="true" href="{% url 'add_comment' pk=post.pk%}">Add Comment</a>
+             </div>
+        </div>
+        <br>
+        {% for comment in post.comments.all %}
+        <div class = "alert alert-secondary mt-l" role = "alert">
+        <strong> {{comment.author|title}} : </strong>
+            <small>
+                {{comment.created_date|timesince}}
+            </small>
+            {{comment.text|safe}}
+        </div>
+        {% empty %}
+         <div class = "alert alert-secondary mt-l" role = "alert">
+             No comments yet.
+             </div>
+        {% endfor %}
+    </div>
 </div>
 
 {% endblock %}

@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 from django.views import generic
 from django.contrib.auth.forms import UserCreationForm
@@ -6,6 +6,7 @@ from .models import Comment, Post
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import CommentForm, PostForm
+from django.shortcuts import render, redirect
 
 
 class PostList(generic.ListView):
@@ -74,3 +75,25 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
+
+
+@login_required()
+def add_comment(request, pk):
+    post = Post.objects.filter(pk=pk).first()
+    if request.method == "POST":
+        request.POST._mutable = True
+        request.POST["author"] = request.user
+        request.POST["post"] = post
+        request.POST._mutable = False
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            form.save()
+            return redirect("post_detail", pk=post.pk)
+    else:
+        form = CommentForm
+    return render(request, "myblog/comment_form.html", {"form": form})
+
+# class AddComment(LoginRequiredMixin, generic.CreateView):
+#     queryset = Post.objects.filter(pk=pk).first()
+#     form_class = CommentForm
+#     template_name = "myblog/comment_form.html"

@@ -12,6 +12,10 @@ class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
 
 
+class PostDetail(generic.DetailView):
+    queryset = Post.objects.all().order_by("-created_on")
+
+
 class CreatePost(LoginRequiredMixin, generic.CreateView):
     login_url = reverse_lazy("login")
     success_url = reverse_lazy("post_list")

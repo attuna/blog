@@ -59,3 +59,19 @@ class PostUpdateView(LoginRequiredMixin, generic.UpdateView):
             )
         )
 
+
+class PostDraftList(LoginRequiredMixin, generic.ListView):
+    success_url = reverse_lazy("login")
+    queryset = Post.objects.filter(status=0).order_by("-created_on")
+
+    def get_queryset(self):
+        return super().get_queryset().filter(author=self.request.user)
+
+
+class PostArchivedList(LoginRequiredMixin, generic.ListView):
+    success_url = reverse_lazy("login")
+    queryset = Post.objects.filter(status=0).order_by("-created_on")
+
+    def get_queryset(self):
+        return super().get_queryset().filter(author=self.request.user)
+

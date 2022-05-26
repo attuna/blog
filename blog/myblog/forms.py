@@ -28,3 +28,4 @@ class CommentForm(forms.ModelForm):
             "author": forms.HiddenInput,
             "text": forms.Textarea(attrs={"class": "form-control content"}),
         }
+

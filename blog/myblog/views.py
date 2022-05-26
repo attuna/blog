@@ -5,7 +5,7 @@ from django.contrib.auth.forms import UserCreationForm
 from .models import Comment, Post
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
-from .forms import CommentForm,PostForm
+from .forms import CommentForm, PostForm
 
 
 class PostList(generic.ListView):
@@ -52,7 +52,7 @@ class PostUpdateView(LoginRequiredMixin, generic.UpdateView):
     def get_success_url(self):
         return reverse_lazy(
             "post_detail",
-            args =(
+            args=(
                 {
                     self.object.id,
                 }
@@ -74,4 +74,3 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
-

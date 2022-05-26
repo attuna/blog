@@ -41,3 +41,21 @@ class CreateUser(generic.CreateView):
     form_class = UserCreationForm
     queryset = User.objects.all()
     template_name = "registration/signup.html"
+
+
+class PostUpdateView(LoginRequiredMixin, generic.UpdateView):
+    login_url = reverse_lazy("login")
+
+    queryset = Post.objects.all()
+    form_class = PostForm
+
+    def get_success_url(self):
+        return reverse_lazy(
+            "post_detail",
+            args =(
+                {
+                    self.object.id,
+                }
+            )
+        )
+

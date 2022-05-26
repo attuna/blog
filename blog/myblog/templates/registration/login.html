@@ -14,12 +14,12 @@
 
       <form method="POST" action="{% url 'login' %}">
           {% csrf_token %}
-<!--          {% crispy form %}-->
-          {{form.as_p}}
-
+          {{ form|crispy }}
           <p class="text-end">
-            <input type="submit" class='btn btn-outline-primary ' aria-pressed="true" value="Login" />
+              <br>
+            <input type="submit" class='btn btn-outline-primary ' aria-pressed="true"   value="Login" />
             <input type="hidden" name="next" value="{{ next }}" />
+<!--              переадресация-->
           </p>
       </form>
     </div>

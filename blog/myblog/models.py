@@ -8,6 +8,13 @@ STATUS = (
 )
 
 
+class Tag(models.Model):
+    title = models.CharField(max_length=30)
+
+    def __str__(self):
+        return self.title
+
+
 class Post(models.Model):
     title = models.CharField(max_length=64, unique=True)
     content = models.TextField()
@@ -23,6 +30,7 @@ class Post(models.Model):
     )
     created_on = models.DateTimeField(auto_now_add=True)
     updated_on = models.DateTimeField(auto_now=True)
+    tags = models.ManyToManyField(Tag)
 
     def __str__(self):
         return self.title
@@ -43,3 +51,6 @@ class Comment(models.Model):
 
     def __str__(self):
         return self.text
+
+
+

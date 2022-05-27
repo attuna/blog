@@ -9,9 +9,9 @@
         {% if user.is_authenticated and post.author.id == request.user.id %}
         <a href="{% url 'post_remove' pk=post.pk %}" class="float-end btn btn-sm btn-danger"><i class="bi bi-trash"></i></a>
             {% if post.status == 0 or post.status == 2 %}
-                <a href="{% url 'post_publish' pk=post.pk %}" class="float-end btn btn-sm btn-success me-2"><i class="bi bi-file-earmark-check"></i></a>
+                <a href="{% url 'post_publish' pk=post.pk %}" class="float-end btn btn-sm btn-danger me-2"><i class="bi bi-file-earmark-lock"></i></a>
             {% else %}
-                <a href="{% url 'post_archive' pk=post.pk %}" class="float-end btn btn-sm btn-danger me-2"><i class="bi bi-file-earmark-excel"></i></a>
+                <a href="{% url 'post_archive' pk=post.pk %}" class="float-end btn btn-sm btn-success me-2"><i class="bi bi-file-earmark-check"></i></a>
             {% endif %}
             <a href="{% url 'post_update' pk=post.pk %}" class="float-end btn btn-sm btn-primary me-2"><i class="bi bi-pencil"></i></a>
         {% endif %}

@@ -71,15 +71,16 @@ class PostDraftList(LoginRequiredMixin, generic.ListView):
 
 class PostArchivedList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    queryset = Post.objects.filter(status=0).order_by("-created_on")
+    queryset = Post.objects.filter(status=2).order_by("-created_on")
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
 
 
 class PostDelete(LoginRequiredMixin, generic.DeleteView):
-    queryset =  Post.objects.all()
+    queryset = Post.objects.all()
     success_url = reverse_lazy("post_list")
+
 
 @login_required()
 def add_comment(request, pk):

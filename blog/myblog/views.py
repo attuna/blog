@@ -79,16 +79,9 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
         return super().get_queryset().filter(author=self.request.user)
 
 
-class PostByTagList (LoginRequiredMixin, generic.ListView):
+class PostByTagList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    #queryset = Post.objects.prefetch_related('tags')
-    queryset = Post.objects.all()
-    #
-    # posts = []
-    #
-    # for post in Post.objects.prefetch_related('tags'):
-    #     tags = [tag.title for tag in post.tags.all()]
-    #     posts.append({'id': post.id, 'name': post.title, 'post_tags': tags})
+    queryset = Post.objects.filter(status=1, tags__id=2).order_by("-created_on")
 
     def get_queryset(self):
         return super().get_queryset()

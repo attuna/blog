@@ -23,7 +23,7 @@
             <p align="right">{{ post.author.username|title }} - {{ post.created_on|date:"M d, Y" }}</p>
         </small>
             {% for tag in post.tags.all %}
-       <a href= "../../post_by_tag" class="alert-link">{{ tag }}</a>
+       <a href="{% url 'post_by_tag' pk=tag.pk%}"  class="alert-link"></a>
             {% empty %}
             {% endfor %}
         </div>
@@ -56,5 +56,5 @@
         {% endfor %}
     </div>
 </div>
-
 {% endblock %}
+

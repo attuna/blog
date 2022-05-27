@@ -1,0 +1,941 @@
+2022-05-27 17:34:44,968 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:34:47,074 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 4745
+2022-05-27 17:34:49,687 - INFO - basehttp - basehttp.py - "GET /post/4/ HTTP/1.1" 200 3127
+2022-05-27 17:34:51,715 - INFO - basehttp - basehttp.py - "GET /accounts/logout/ HTTP/1.1" 302 0
+2022-05-27 17:34:51,773 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 6931
+2022-05-27 17:39:47,109 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:39:49,650 - INFO - basehttp - basehttp.py - "GET /post/6/ HTTP/1.1" 200 4094
+2022-05-27 17:39:53,981 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 6931
+2022-05-27 17:39:55,273 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 4348
+2022-05-27 17:39:57,165 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 302 0
+2022-05-27 17:39:57,689 - INFO - basehttp - basehttp.py - "GET /accounts/login/?next=/post_by_tag/ HTTP/1.1" 200 3136
+2022-05-27 17:40:05,013 - INFO - basehttp - basehttp.py - "POST /accounts/login/ HTTP/1.1" 200 3408
+2022-05-27 17:40:13,124 - INFO - basehttp - basehttp.py - "POST /accounts/login/ HTTP/1.1" 302 0
+2022-05-27 17:40:13,201 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 10460
+2022-05-27 17:40:17,590 - INFO - basehttp - basehttp.py - "GET /post/17/ HTTP/1.1" 200 3173
+2022-05-27 17:40:20,246 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 10460
+2022-05-27 17:40:24,104 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 17:45:21,303 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:45:24,134 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 17:45:24,349 - INFO - basehttp - basehttp.py - "GET /media/post/timothy-meinberg-phx4UXMQRTg-unsplash.jpg HTTP/1.1" 304 0
+2022-05-27 17:45:26,119 - INFO - basehttp - basehttp.py - "GET /post/6/ HTTP/1.1" 200 4904
+2022-05-27 17:45:30,619 - INFO - basehttp - basehttp.py - "GET /post/5/ HTTP/1.1" 200 4296
+2022-05-27 17:45:32,520 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5159
+2022-05-27 17:45:34,373 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 7325
+2022-05-27 17:46:03,534 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:46:04,170 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:47:04,349 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:47:05,102 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:47:06,185 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 3033
+2022-05-27 17:47:21,635 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:47:22,141 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:49:06,873 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:49:07,195 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:49:19,647 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:49:20,023 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:49:20,637 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5160
+2022-05-27 17:49:22,638 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 17:49:24,303 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5160
+2022-05-27 17:49:25,812 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 3033
+2022-05-27 17:49:29,272 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 3033
+2022-05-27 17:52:58,269 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:52:58,728 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:57:21,290 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5159
+2022-05-27 17:57:22,608 - INFO - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 200 3033
+2022-05-27 17:57:34,870 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:57:35,393 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 17:58:11,093 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 17:58:11,563 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:15:40,696 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:15:42,699 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:21:48,676 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:21:52,009 - WARNING - log - log.py - Not Found: /post_by_tag/
+2022-05-27 18:21:52,010 - WARNING - basehttp - basehttp.py - "GET /post_by_tag/ HTTP/1.1" 404 4828
+2022-05-27 18:21:55,146 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for '../../post_by_tag' not found. '../../post_by_tag' is not a valid view function or pattern name.
+2022-05-27 18:21:55,148 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 173309
+2022-05-27 18:23:58,054 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:23:58,055 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174714
+2022-05-27 18:23:58,220 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:25:12,943 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:25:12,944 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174714
+2022-05-27 18:25:13,096 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:27:08,400 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'views.post_by_tag_list' not found. 'views.post_by_tag_list' is not a valid view function or pattern name.
+2022-05-27 18:27:08,401 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 173429
+2022-05-27 18:27:25,332 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:27:25,333 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174714
+2022-05-27 18:28:16,409 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:28:16,410 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174709
+2022-05-27 18:28:16,532 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:28:17,280 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:28:17,281 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174709
+2022-05-27 18:28:18,821 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:28:18,823 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174709
+2022-05-27 18:28:20,068 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:28:20,069 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174709
+2022-05-27 18:28:21,258 - ERROR - log - log.py - Internal Server Error: /post/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['post/tag/\\Z']
+2022-05-27 18:28:21,259 - ERROR - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 500 174709
+2022-05-27 18:29:12,586 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/urls.py changed, reloading.
+2022-05-27 18:29:13,067 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:29:13,395 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5149
+2022-05-27 18:29:13,619 - INFO - basehttp - basehttp.py - "GET /media/post/thomas-despeyroux-tMfXQfkSobU-unsplash.jpg HTTP/1.1" 304 0
+2022-05-27 18:29:16,737 - ERROR - log - log.py - Internal Server Error: /post/tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:29:16,738 - ERROR - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 500 69696
+2022-05-27 18:29:16,879 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:29:25,562 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3208
+2022-05-27 18:29:28,026 - ERROR - log - log.py - Internal Server Error: /post/tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:29:28,027 - ERROR - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 500 69696
+2022-05-27 18:29:28,169 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:29:44,971 - ERROR - log - log.py - Internal Server Error: /post/tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:29:44,971 - ERROR - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 500 69696
+2022-05-27 18:29:46,162 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:29:46,895 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3208
+2022-05-27 18:29:48,446 - ERROR - log - log.py - Internal Server Error: /post/tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:29:48,447 - ERROR - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 500 69696
+2022-05-27 18:30:34,499 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/urls.py changed, reloading.
+2022-05-27 18:30:35,650 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:30:38,782 - WARNING - log - log.py - Not Found: /post/tag/2/
+2022-05-27 18:30:38,783 - WARNING - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 404 4835
+2022-05-27 18:30:47,259 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:30:49,760 - WARNING - log - log.py - Not Found: /post/tag/2/
+2022-05-27 18:30:49,761 - WARNING - basehttp - basehttp.py - "GET /post/tag/2/ HTTP/1.1" 404 4835
+2022-05-27 18:30:55,515 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:30:55,783 - INFO - basehttp - basehttp.py - "GET /media/post/pexels-francesco-ungaro-2325446_vwfTwyd.jpg HTTP/1.1" 304 0
+2022-05-27 18:30:55,860 - INFO - basehttp - basehttp.py - "GET /media/post/olenka-kotyk-9TUkYXQKXec-unsplash.jpg HTTP/1.1" 304 0
+2022-05-27 18:30:55,872 - INFO - basehttp - basehttp.py - "GET /media/post/steven-kamenar-MMJx78V7xS8-unsplash.jpg HTTP/1.1" 304 0
+2022-05-27 18:30:56,019 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:30:56,793 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:30:56,997 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:30:56,998 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 4835
+2022-05-27 18:30:59,173 - ERROR - log - log.py - Internal Server Error: /tag/1/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:30:59,174 - ERROR - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 500 69651
+2022-05-27 18:31:10,353 - ERROR - log - log.py - Internal Server Error: /tag/1/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:31:10,354 - ERROR - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 500 69651
+2022-05-27 18:31:11,564 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:31:12,708 - ERROR - log - log.py - Internal Server Error: /tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:31:12,709 - ERROR - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 500 69651
+2022-05-27 18:31:55,512 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:31:55,874 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:31:56,877 - ERROR - log - log.py - Internal Server Error: /tag/1/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/anna/Рабочий стол/myapp/blog/myblog/views.py", line 91, in post_by_tag_list
+    return redirect("post_list", pk=pk)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_list' with keyword arguments '{'pk': 1}' not found. 1 pattern(s) tried: ['\\Z']
+2022-05-27 18:31:56,878 - ERROR - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 500 88932
+2022-05-27 18:32:06,492 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:32:18,930 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:32:20,680 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:32:21,165 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:32:21,687 - INFO - basehttp - basehttp.py - "GET /post/11/ HTTP/1.1" 200 4006
+2022-05-27 18:32:23,550 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:32:24,514 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:32:24,749 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:32:24,750 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 4835
+2022-05-27 18:32:26,227 - ERROR - log - log.py - Internal Server Error: /tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/anna/Рабочий стол/myapp/blog/myblog/views.py", line 91, in post_by_tag_list
+    return redirect("post_list", pk=pk)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_list' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['\\Z']
+2022-05-27 18:32:26,229 - ERROR - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 500 88965
+2022-05-27 18:32:41,297 - ERROR - log - log.py - Internal Server Error: /tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/anna/Рабочий стол/myapp/blog/myblog/views.py", line 91, in post_by_tag_list
+    return redirect("post_list")
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_list' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['\\Z']
+2022-05-27 18:32:41,298 - ERROR - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 500 88951
+2022-05-27 18:32:41,330 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:32:41,781 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:32:43,137 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:32:44,374 - INFO - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 302 0
+2022-05-27 18:32:44,422 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:32:46,883 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:32:48,561 - INFO - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 302 0
+2022-05-27 18:32:48,611 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:32:48,922 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:32:48,933 - WARNING - basehttp - basehttp.py - "GET /favicon.ico HTTP/1.1" 404 4835
+2022-05-27 18:34:12,248 - INFO - basehttp - basehttp.py - "GET /post/7/ HTTP/1.1" 200 3813
+2022-05-27 18:34:14,368 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:34:15,506 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:34:18,191 - INFO - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 302 0
+2022-05-27 18:34:18,245 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:34:21,286 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:34:22,982 - INFO - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 302 0
+2022-05-27 18:34:23,026 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:35:06,205 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:35:06,605 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:35:08,559 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:35:08,897 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:35:10,737 - INFO - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 302 0
+2022-05-27 18:35:10,785 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:35:12,724 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:35:14,074 - INFO - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 302 0
+2022-05-27 18:35:14,127 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:35:27,164 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:35:27,549 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:35:29,069 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:35:30,981 - ERROR - log - log.py - Internal Server Error: /tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/anna/Рабочий стол/myapp/blog/myblog/views.py", line 91, in post_by_tag_list
+    return redirect("post_list", pk=pk)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 48, in redirect
+    return redirect_class(resolve_url(to, *args, **kwargs))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/shortcuts.py", line 145, in resolve_url
+    return reverse(to, args=args, kwargs=kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_list' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ['\\Z']
+2022-05-27 18:35:30,982 - ERROR - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 500 88931
+2022-05-27 18:36:11,504 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:36:11,914 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:36:12,167 - ERROR - log - log.py - Internal Server Error: /tag/2/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:36:12,168 - ERROR - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 500 69651
+2022-05-27 18:36:14,669 - ERROR - log - log.py - Internal Server Error: /tag/1/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 204, in _get_response
+    self.check_response(response, callback)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 332, in check_response
+    raise ValueError(
+ValueError: The view myblog.views.post_by_tag_list didn't return an HttpResponse object. It returned None instead.
+2022-05-27 18:36:14,670 - ERROR - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 500 69651
+2022-05-27 18:36:40,579 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:36:40,925 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:36:42,223 - INFO - basehttp - basehttp.py - "GET /tag/1/ HTTP/1.1" 302 0
+2022-05-27 18:36:42,280 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:36:43,857 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5139
+2022-05-27 18:36:44,049 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:36:45,502 - INFO - basehttp - basehttp.py - "GET /tag/2/ HTTP/1.1" 302 0
+2022-05-27 18:36:45,552 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:37:13,714 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/urls.py changed, reloading.
+2022-05-27 18:37:14,086 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:37:14,359 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:37:15,106 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5155
+2022-05-27 18:37:16,906 - INFO - basehttp - basehttp.py - "GET /post_by_tag/1/ HTTP/1.1" 200 3033
+2022-05-27 18:37:19,657 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3033
+2022-05-27 18:37:21,149 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:37:23,074 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3211
+2022-05-27 18:37:24,255 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3033
+2022-05-27 18:37:28,107 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5155
+2022-05-27 18:37:28,295 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:37:32,410 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5155
+2022-05-27 18:38:34,411 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:38:34,979 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:38:36,854 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3033
+2022-05-27 18:40:37,987 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5153
+2022-05-27 18:40:38,227 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:40:40,128 - INFO - basehttp - basehttp.py - "GET /post_by_tag/1/ HTTP/1.1" 200 3033
+2022-05-27 18:40:41,561 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5153
+2022-05-27 18:40:43,987 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3033
+2022-05-27 18:40:52,799 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:40:54,367 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3211
+2022-05-27 18:40:56,189 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3033
+2022-05-27 18:41:30,685 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:41:31,092 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:41:32,587 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:41:33,097 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:41:33,481 - INFO - basehttp - basehttp.py - "GET /post/7/ HTTP/1.1" 200 3813
+2022-05-27 18:41:35,683 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3211
+2022-05-27 18:41:37,037 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3068
+2022-05-27 18:41:39,077 - INFO - basehttp - basehttp.py - "GET /post/3/ HTTP/1.1" 200 4564
+2022-05-27 18:41:40,873 - INFO - basehttp - basehttp.py - "GET /post_by_tag/3/ HTTP/1.1" 200 3068
+2022-05-27 18:41:42,312 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:41:42,682 - WARNING - log - log.py - Not Found: /favicon.ico
+2022-05-27 18:41:43,884 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5154
+2022-05-27 18:41:45,489 - INFO - basehttp - basehttp.py - "GET /post_by_tag/1/ HTTP/1.1" 200 3068
+2022-05-27 18:41:47,196 - INFO - basehttp - basehttp.py - "GET /post/3/ HTTP/1.1" 200 4564
+2022-05-27 18:42:31,206 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:42:31,645 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:42:34,297 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:42:36,076 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5154
+2022-05-27 18:42:37,745 - INFO - basehttp - basehttp.py - "GET /post_by_tag/1/ HTTP/1.1" 200 3068
+2022-05-27 18:42:39,048 - INFO - basehttp - basehttp.py - "GET /post/3/ HTTP/1.1" 200 4564
+2022-05-27 18:42:44,087 - INFO - basehttp - basehttp.py - "GET /post_by_tag/3/ HTTP/1.1" 200 3068
+2022-05-27 18:42:45,397 - INFO - basehttp - basehttp.py - "GET /post/3/ HTTP/1.1" 200 4564
+2022-05-27 18:42:47,390 - INFO - basehttp - basehttp.py - "GET /post_by_tag/3/ HTTP/1.1" 200 3068
+2022-05-27 18:42:49,071 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:42:50,356 - INFO - basehttp - basehttp.py - "GET /post/2/ HTTP/1.1" 200 5154
+2022-05-27 18:42:51,745 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3068
+2022-05-27 18:47:50,326 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/urls.py changed, reloading.
+2022-05-27 18:47:50,860 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:47:52,411 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:47:55,096 - ERROR - log - log.py - Internal Server Error: /post/1/
+Traceback (most recent call last):
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 1000, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/base.py", line 958, in render_annotated
+    return self.render(context)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/anna/Рабочий стол/myapp/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 802, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'post_by_tag' with keyword arguments '{'pk': 2}' not found. 1 pattern(s) tried: ["r'\\^tag/\\(\\?P(?P<tag>[^/]+)\\[a\\-zA\\-Z\\]\\+\\)/\\$'\\Z"]
+2022-05-27 18:47:55,122 - ERROR - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 500 176168
+2022-05-27 18:49:50,462 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/urls.py changed, reloading.
+2022-05-27 18:49:52,624 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:49:54,156 - INFO - basehttp - basehttp.py - "GET /post/1/ HTTP/1.1" 200 3211
+2022-05-27 18:49:56,838 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3068
+2022-05-27 18:50:37,581 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:50:37,973 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:50:51,423 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:50:51,757 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:51:10,175 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 18:51:10,587 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:51:11,048 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 3678
+2022-05-27 18:52:50,041 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 18:52:52,959 - INFO - basehttp - basehttp.py - "GET /post_by_tag/2/ HTTP/1.1" 200 4435
+2022-05-27 18:52:59,436 - INFO - basehttp - basehttp.py - "GET / HTTP/1.1" 200 7325
+2022-05-27 18:53:00,655 - INFO - basehttp - basehttp.py - "GET /post/6/ HTTP/1.1" 200 5046
+2022-05-27 18:53:02,582 - INFO - basehttp - basehttp.py - "GET /post_by_tag/3/ HTTP/1.1" 200 4435
+2022-05-27 19:34:41,400 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 19:34:46,169 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 19:37:48,343 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 19:37:48,854 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 19:41:59,487 - INFO - autoreload - autoreload.py - /home/anna/Рабочий стол/myapp/blog/myblog/views.py changed, reloading.
+2022-05-27 19:42:00,849 - INFO - autoreload - autoreload.py - Watching for file changes with StatReloader
+2022-05-27 19:42:02,334 - INFO - basehttp - basehttp.py - "GET /post_by_tag/3/ HTTP/1.1" 200 4435

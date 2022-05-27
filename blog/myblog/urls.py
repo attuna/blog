@@ -11,8 +11,8 @@ urlpatterns = [
     path("post/<int:pk>/publish/", views.post_publish, name="post_publish"),
     path("post/<int:pk>/archive/", views.post_archive, name="post_archive"),
     path("post/<int:pk>/comment/", views.add_comment, name="add_comment"),
-    # path("post/tag/", views.PostByTagsList.as_view(), name="post_by_tag"),
-    path("post_by_tag/", views.PostByTagList.as_view(), name="post_by_tag"),
+    # path("tag/<int:pk>/", views.post_by_tag_list, name="post_by_tag"),
+    path("post_by_tag/<int:pk>/", views.PostByTagList.as_view(), name="post_by_tag"),
     path("draft", views.PostDraftList.as_view(), name="post_draft_list"),
     path("archived", views.PostArchivedList.as_view(), name="post_archived_list"),
 

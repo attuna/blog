@@ -77,6 +77,10 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
         return super().get_queryset().filter(author=self.request.user)
 
 
+class PostDelete(LoginRequiredMixin, generic.DeleteView):
+    queryset =  Post.objects.all()
+    success_url = reverse_lazy("post_list")
+
 @login_required()
 def add_comment(request, pk):
     post = Post.objects.filter(pk=pk).first()
@@ -97,3 +101,15 @@ def add_comment(request, pk):
 #     queryset = Post.objects.filter(pk=pk).first()
 #     form_class = CommentForm
 #     template_name = "myblog/comment_form.html"
+
+
+@login_required
+def post_publish(request, pk):
+    Post.objects.filter(pk=pk).update(status=1)
+    return redirect("post_detail", pk=pk)
+
+
+@login_required
+def post_archive(request, pk):
+    Post.objects.filter(pk=pk).update(status=2)
+    return redirect("post_detail", pk=pk)

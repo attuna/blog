@@ -3,7 +3,7 @@ from .models import Comment, Post, Tag
 
 
 class PostAdmin(admin.ModelAdmin):
-    readonly_fields = ['created_on', 'tags', 'content', 'title']
+    readonly_fields = ['author', 'image', 'created_on', 'tags', 'content', 'title']
 
 
 admin.site.register(Comment)

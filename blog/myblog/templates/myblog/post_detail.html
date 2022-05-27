@@ -22,9 +22,11 @@
         <small>
             <p align="right">{{ post.author.username|title }} - {{ post.created_on|date:"M d, Y" }}</p>
         </small>
-        <div class="alert alert-primary" role="alert">
             {% for tag in post.tags.all %}
+        <div class="alert alert-primary" role="alert">
        <a href="#" class="alert-link">{{ tag }}</a>
+            {% empty %}
+
              {% endfor %}
     </div>
 

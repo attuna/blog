@@ -22,7 +22,14 @@
         <small>
             <p align="right">{{ post.author.username|title }} - {{ post.created_on|date:"M d, Y" }}</p>
         </small>
+        <div class="alert alert-primary" role="alert">
+            {% for tag in post.tags.all %}
+       <a href="#" class="alert-link">{{ tag }}</a>
+             {% endfor %}
     </div>
+
+    </div>
+
     <div class = "card-body pt-0">
         <hr>
         <div class ="row">

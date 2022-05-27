@@ -12,6 +12,11 @@ from django.shortcuts import render, redirect
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
 
+#
+# class PostByTagsList(generic.ListView):
+#     queryset = Post.objects.filter(tags=Post.tags).order_by("-created_on")
+#
+
 
 class PostDetail(generic.DetailView):
     queryset = Post.objects.all().order_by("-created_on")

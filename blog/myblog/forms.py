@@ -1,12 +1,12 @@
 from django import forms
-from .models import Comment, Post
+from .models import Comment, Post, Tag
 
 
 class PostForm(forms.ModelForm):
     class Meta:
         model = Post
         exclude = ("status", "created_on", "updated_on")
-
+        tags = forms.ModelMultipleChoiceField(queryset=Tag.objects.all(), required=False)
         widgets = {
             "title": forms.TextInput(attrs={"class": "form-control"}),
             "content": forms.Textarea(attrs={"class": "form-control content"}),

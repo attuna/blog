@@ -1,6 +1,12 @@
 from django.contrib import admin
-from .models import Comment, Post
-# Register your models here.
+from .models import Comment, Post, Tag
+
+
+class PostAdmin(admin.ModelAdmin):
+    readonly_fields = ['created_on', 'tags', 'content', 'title']
+
 
 admin.site.register(Comment)
-admin.site.register(Post)
+admin.site.register(Post, PostAdmin)
+admin.site.register(Tag)
+

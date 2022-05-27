@@ -1,8 +1,10 @@
+import logging
+
 from django.contrib.auth.decorators import login_required
 from django.urls import reverse_lazy
 from django.views import generic
 from django.contrib.auth.forms import UserCreationForm
-from .models import Comment, Post
+from .models import Comment, Post, Tag
 from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import CommentForm, PostForm
@@ -11,11 +13,6 @@ from django.shortcuts import render, redirect
 
 class PostList(generic.ListView):
     queryset = Post.objects.filter(status=1).order_by("-created_on")
-
-#
-# class PostByTagsList(generic.ListView):
-#     queryset = Post.objects.filter(tags=Post.tags).order_by("-created_on")
-#
 
 
 class PostDetail(generic.DetailView):
@@ -80,6 +77,21 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
+
+
+class PostByTagList (LoginRequiredMixin, generic.ListView):
+    success_url = reverse_lazy("login")
+    #queryset = Post.objects.prefetch_related('tags')
+    queryset = Post.objects.all()
+    #
+    # posts = []
+    #
+    # for post in Post.objects.prefetch_related('tags'):
+    #     tags = [tag.title for tag in post.tags.all()]
+    #     posts.append({'id': post.id, 'name': post.title, 'post_tags': tags})
+
+    def get_queryset(self):
+        return super().get_queryset()
 
 
 class PostDelete(LoginRequiredMixin, generic.DeleteView):

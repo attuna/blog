@@ -1,3 +1,4 @@
+import asyncio
 import logging
 
 from django.contrib.auth.decorators import login_required
@@ -9,14 +10,16 @@ from django.contrib.auth.models import User
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .forms import CommentForm, PostForm
 from django.shortcuts import render, redirect
+from .async_requests import get_all_posts, get_post_detail, get_all_available_posts
+from .async_requests import get_all_users, get_all_draft_posts, get_all_archived_posts
 
 
 class PostList(generic.ListView):
-    queryset = Post.objects.filter(status=1).order_by("-created_on")
+    queryset = asyncio.run(get_all_available_posts())
 
 
 class PostDetail(generic.DetailView):
-    queryset = Post.objects.all().order_by("-created_on")
+    queryset = asyncio.run(get_post_detail())
 
 
 class CreatePost(LoginRequiredMixin, generic.CreateView):
@@ -24,7 +27,7 @@ class CreatePost(LoginRequiredMixin, generic.CreateView):
     success_url = reverse_lazy("post_list")
 
     form_class = PostForm
-    queryset = Post.objects.all()
+    queryset = asyncio.run(get_all_posts())
     template_name = "myblog/post_form.html"
 
     def post(self, request, *args, **kwargs):
@@ -42,14 +45,14 @@ class CreatePost(LoginRequiredMixin, generic.CreateView):
 class CreateUser(generic.CreateView):
     success_url = reverse_lazy("post_list")
     form_class = UserCreationForm
-    queryset = User.objects.all()
+    queryset = asyncio.run(get_all_users())
     template_name = "registration/signup.html"
 
 
 class PostUpdateView(LoginRequiredMixin, generic.UpdateView):
     login_url = reverse_lazy("login")
 
-    queryset = Post.objects.all()
+    queryset = asyncio.run(get_all_posts())
     form_class = PostForm
 
     def get_success_url(self):
@@ -65,7 +68,7 @@ class PostUpdateView(LoginRequiredMixin, generic.UpdateView):
 
 class PostDraftList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    queryset = Post.objects.filter(status=0).order_by("-created_on")
+    queryset = asyncio.run(get_all_draft_posts())
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
@@ -73,7 +76,7 @@ class PostDraftList(LoginRequiredMixin, generic.ListView):
 
 class PostArchivedList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    queryset = Post.objects.filter(status=2).order_by("-created_on")
+    queryset = asyncio.run(get_all_archived_posts())
 
     def get_queryset(self):
         return super().get_queryset().filter(author=self.request.user)
@@ -88,7 +91,7 @@ class PostByTagList(LoginRequiredMixin, generic.ListView):
 
 
 class PostDelete(LoginRequiredMixin, generic.DeleteView):
-    queryset = Post.objects.all()
+    queryset = asyncio.run(get_all_posts())
     success_url = reverse_lazy("post_list")
 
 

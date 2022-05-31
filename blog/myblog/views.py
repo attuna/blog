@@ -84,7 +84,7 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
 
 class PostByTagList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    queryset = Post.objects.filter(status=1, tags__id=2).order_by("-created_on")
+    queryset = Post.objects.filter(status='PUBLISH', tags__id=2).order_by("-created_on")
 
     def get_queryset(self):
         return super().get_queryset()
@@ -111,6 +111,7 @@ def add_comment(request, pk):
         form = CommentForm
     return render(request, "myblog/comment_form.html", {"form": form})
 
+
 # class AddComment(LoginRequiredMixin, generic.CreateView):
 #     queryset = Post.objects.filter(pk=pk).first()
 #     form_class = CommentForm
@@ -119,11 +120,11 @@ def add_comment(request, pk):
 
 @login_required
 def post_publish(request, pk):
-    Post.objects.filter(pk=pk).update(status=1)
+    Post.objects.filter(pk=pk).update(status='PUBLISH')
     return redirect("post_detail", pk=pk)
 
 
 @login_required
 def post_archive(request, pk):
-    Post.objects.filter(pk=pk).update(status=2)
+    Post.objects.filter(pk=pk).update(status='ARCHIVE')
     return redirect("post_detail", pk=pk)

@@ -2,9 +2,9 @@ from django.db import models
 from django.contrib.auth.models import User
 
 STATUS = (
-    (0, "Draft"),
-    (1, "Publish"),
-    (2, "Archive"),
+    ('DRAFT', "Draft"),
+    ('PUBLISH', "Publish"),
+    ('ARCHIVE', "Archive"),
 )
 
 
@@ -18,7 +18,7 @@ class Tag(models.Model):
 class Post(models.Model):
     title = models.CharField(max_length=64, unique=True)
     content = models.TextField()
-    status = models.IntegerField(choices=STATUS, default=0)
+    status = models.CharField(max_length=64, choices=STATUS, default='DRAFT')
     image = models.ImageField(
         upload_to="post",
         default="post/sample.jpg",

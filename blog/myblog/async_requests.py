@@ -14,7 +14,7 @@ def get_post_detail():
 
 @sync_to_async()
 def get_all_available_posts():
-    return Post.objects.filter(status=1).order_by("-created_on")
+    return Post.objects.filter(status='PUBLISH').order_by("-created_on")
 
 
 @sync_to_async()
@@ -24,9 +24,9 @@ def get_all_users():
 
 @sync_to_async()
 def get_all_draft_posts():
-    return Post.objects.filter(status=0).order_by("-created_on")
+    return Post.objects.filter(status='DRAFT').order_by("-created_on")
 
 
 @sync_to_async()
 def get_all_archived_posts():
-    return Post.objects.filter(status=2).order_by("-created_on")
+    return Post.objects.filter(status='ARCHIVE').order_by("-created_on")

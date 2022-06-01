@@ -84,7 +84,7 @@ class PostArchivedList(LoginRequiredMixin, generic.ListView):
 
 class PostByTagList(LoginRequiredMixin, generic.ListView):
     success_url = reverse_lazy("login")
-    queryset = Post.objects.filter(status='PUBLISH', tags__id=2).order_by("-created_on")
+    queryset = Post.objects.filter(status='PUBLISH', tags__id=3).order_by("-created_on")
 
     def get_queryset(self):
         return super().get_queryset()

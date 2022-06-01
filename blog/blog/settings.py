@@ -1,3 +1,5 @@
+import os
+import dj_database_url
 """
 Django settings for blog project.
 
@@ -25,8 +27,9 @@ SECRET_KEY = 'django-insecure-ax6ps)2uwj(iz^0-vhh4#_yf5zo&-ic%062lz9r34u2lagr033
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0','127.0.0.1', 'https://blogpeshko.herokuapp.com', 'blogpeshko.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = ['https://blogpeshko.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
@@ -75,19 +78,33 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
+# DATABASES = {
+#
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'django_db',
+#         'USER': 'postgres',
+#         'PASSWORD': 'password',
+#         'HOST': '127.0.0.1',
+#         'PORT': '5432',
+#
+#     }
+#
+# }
 
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'django_db',
-        'USER': 'postgres',
-        'PASSWORD': 'password',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': os.environ.get('POSTGRES_NAME'),
+#         'USER': os.environ.get('POSTGRES_USER'),
+#         'PASSWORD': os.environ.get('POSTGRES_PASSWORD'),
+#         'HOST': 'db',
+#         'PORT': 5432,
+#     }
+# }
 
-    }
-
-}
+DATABASES = {}
+DATABASES['default'] = dj_database_url.config(default='postgres://jktnpzukmwbqqf:18e31048a0afc83bac9a7743fc11b433c639d38e1ab060d10bf1fe953ba7640b@ec2-34-227-120-79.compute-1.amazonaws.com:5432/dc82u4mbp2r9tt')
 
 
 LOGGING = {
